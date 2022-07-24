@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Canvas"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.events.PaintListener"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.graphics.Color"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="com.packtpub.e4.clock.ui.internal.TimeZoneComparator"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.custom.CTabFolder"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.custom.CTabItem"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.layout.RowLayout"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.graphics.RGB"/>
+    <fullyQualifiedTypeName name="com.packtpub.e4.clock.ui.ClockWidget"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Group"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.layout.FillLayout"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.SWT"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.custom.ScrolledComposite"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.graphics.Point"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Display"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.resource.ResourceManager"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.resource.LocalResourceManager"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.resource.ImageDescriptor"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.resource.ImageRegistry"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider.IStyledLabelProvider"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.viewers.DelegatingStyledCellLabelProvider"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.viewers.IFontProvider"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.resource.JFaceResources"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.resource.FontRegistry"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.viewers.ViewerComparator"/>
+    <fullyQualifiedTypeName name="com.packtpub.e4.clock.ui.internal.TimeZoneViewerComparator"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.viewers.ViewerFilter"/>
+    <fullyQualifiedTypeName name="com.packtpub.e4.clock.ui.internal.TimeZoneViewerFilter"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.viewers.IDoubleClickListener"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.viewers.Viewer"/>
+    <fullyQualifiedTypeName name="org.eclipse.swt.widgets.Shell"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.viewers.ISelection"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.viewers.IStructuredSelection"/>
+    <fullyQualifiedTypeName name="java.util.TimeZone"/>
+    <fullyQualifiedTypeName name="org.eclipse.jface.dialogs.MessageDialog"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.packtpub.e4.clock.ui.internal.TimeZoneCoaparator&apos; to &apos;TimeZoneComparator&apos;&#x0D;&#x0A;- Original project: &apos;com.packtpub.e4.clock.ui&apos;&#x0D;&#x0A;- Original element: &apos;com.packtpub.e4.clock.ui.internal.TimeZoneCoaparator&apos;&#x0D;&#x0A;- Renamed element: &apos;com.packtpub.e4.clock.ui.internal.TimeZoneComparator&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TimeZoneCoaparator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.packtpub.e4.clock.ui.internal{TimeZoneCoaparator.java[TimeZoneCoaparator" matchStrategy="1" name="TimeZoneComparator" qualified="false" references="true" similarDeclarations="false" stamp="1652624627309" textual="false" version="1.0"/>
+</session>

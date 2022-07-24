@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Timekeeping"
+            id="com.packtpub.e4.clock.ui">
+      </category>
+      <view
+            id="com.packtpub.e4.clock.ui.views.ClockView"
+            name="Clock View"
+            icon="icons/sample.png"
+            class="com.packtpub.e4.clock.ui.views.ClockView"
+            category="com.packtpub.e4.clock.ui"
+            inject="true">
+      </view>
+      <view
+            id="com.packtpub.e4.clock.ui.views.TimeZoneView"
+            name="Time Zone View"
+            icon="icons/sample.png"
+            class="com.packtpub.e4.clock.ui.views.TimeZoneView"
+            category="com.packtpub.e4.clock.ui"
+            inject="true">
+      </view>
+      <view
+            id="com.packtpub.e4.clock.ui.views.TimeZoneTreeView"
+            name="Time Zone Tree View"
+            icon="icons/sample.png"
+            class="com.packtpub.e4.clock.ui.views.TimeZoneTreeView"
+            category="com.packtpub.e4.clock.ui"
+            inject="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               id="com.packtpub.e4.clock.ui.views.ClockView"
+               relative="org.eclipse.ui.views.ProblemView"
+               relationship="right"
+               ratio="0.5">
+         </view>
+      </perspectiveExtension>
+   </extension>
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="contexts.xml">
+      </contexts>
+   </extension>
+   <extension point="org.eclipse.core.runtime.adapter">
+       <factory adaptableType = "java.util.TimeZone"
+       	class = "com.packtpub.e4.clock.ui.internal.TimeZoneAdapterFactory">
+       <adapter type="org.eclipse.ui.views.properties.IPropertySource"/>
+       </factory>
+   </extension>
+
+</plugin>

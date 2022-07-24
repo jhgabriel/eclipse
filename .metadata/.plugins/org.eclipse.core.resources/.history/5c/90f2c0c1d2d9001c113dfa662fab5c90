@@ -1,0 +1,26 @@
+package com.packtpub.e4.clock.ui.internal;
+
+import org.eclipse.jface.viewers.Viewer;
+import org.eclipse.jface.viewers.ViewerFilter;
+
+public class TimeZoneViewerFilter extends ViewerFilter {
+	
+	private String pattern;
+	
+	
+	
+
+	public TimeZoneViewerFilter(String pattern) {
+		this.pattern = pattern;
+	}
+
+
+
+
+	@Override
+	public boolean select(Viewer viewer, Object parentElement, Object element) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

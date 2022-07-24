@@ -1,0 +1,33 @@
+package com.packtpub.e4.clock2.ui.views;
+
+import java.time.ZoneId;
+import java.util.TimeZone;
+
+import org.eclipse.jface.viewers.TreeViewer;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.ui.part.ViewPart;
+
+public class TimeZoneTreeView extends ViewPart {
+
+	private TreeViewer treeViewer;
+	
+	@Override
+	public void createPartControl(Composite parent) {
+		treeViewer = new TreeViewer(parent, SWT.MULTI|SWT.H_SCROLL|SWT.V_SCROLL);
+		treeViewer.setLabelProvider(new TimeZoneLabelProvider());
+		treeViewer.setContentProvider(new TimeZoneContentProvider());
+		treeViewer.setInput(new Object[] { 
+				TimeZone.getTimeZone(ZoneId.getAvailableZoneIds())
+				}
+		);
+		
+	}
+
+	@Override
+	public void setFocus() {
+		treeViewer.getControl().setFocus();
+		
+	}
+
+}

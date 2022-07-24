@@ -1,0 +1,7 @@
+package com.packtpub.e4.clock.ui.views;
+
+import org.eclipse.ui.part.ViewPart;
+
+public class TimeZoneTreeView extends ViewPart {
+
+}

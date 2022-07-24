@@ -1,0 +1,11 @@
+package com.packtpub.e4.clock.ui.internal;
+
+import org.eclipse.jface.dialogs.MessageDialog;
+
+public class TimeZoneDialog extends MessageDialog {
+	
+	private TimeZone timeZone;
+	
+	
+
+}

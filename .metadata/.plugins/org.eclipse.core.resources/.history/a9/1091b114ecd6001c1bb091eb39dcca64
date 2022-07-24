@@ -1,0 +1,24 @@
+package com.packtpub.e4.clock.ui.views;
+
+import org.eclipse.jface.viewers.TreeViewer;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.ui.part.ViewPart;
+
+public class TimeZoneTreeView extends ViewPart {
+
+	private TreeViewer treeViewer;
+	
+	
+	@Override
+	public void createPartControl(Composite arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setFocus() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

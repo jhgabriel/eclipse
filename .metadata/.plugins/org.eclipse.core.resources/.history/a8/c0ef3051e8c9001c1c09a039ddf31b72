@@ -1,0 +1,25 @@
+package helloworld;
+
+public class Exe {
+	public static void main(String [] args) {
+		
+		int limit = 100;
+		
+		for(int a=1;a<limit;a++) {
+			for(int b=1;b<limit;b++) {
+				for(int c=1;c<limit;c++) {
+					double x = (double)a/(b+c);
+					double y = (double)b/(a+c);
+					double z = (double)c/(a+b);
+					
+					if(x+y+z==4) {
+						System.out.println(a);
+						System.out.println(b);
+						System.out.println(c);
+					}
+				}
+			}
+		}
+	}
+
+}

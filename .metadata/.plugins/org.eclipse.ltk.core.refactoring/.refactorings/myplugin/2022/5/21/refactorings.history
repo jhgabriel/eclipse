@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SampleHandler.java&apos; to &apos;myplugin2/src/cn.com.chengang&apos;&#x0D;&#x0A;- Original project: &apos;myplugin&apos;&#x0D;&#x0A;- Destination element: &apos;myplugin2/src/cn.com.chengang&apos;&#x0D;&#x0A;- Original element: &apos;myplugin.handlers.SampleHandler.java&apos;" description="Copy compilation unit" destination="=myplugin2/src&lt;cn.com.chengang" element1="/src&lt;myplugin.handlers{SampleHandler.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1652622475486" units="1" version="1.0"/>
+</session>

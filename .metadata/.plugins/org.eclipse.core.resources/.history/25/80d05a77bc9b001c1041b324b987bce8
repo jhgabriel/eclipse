@@ -1,0 +1,5 @@
+package com.packtpub.e4.clock2.ui.views;
+
+public class TimeZoneLabelProvider {
+
+}

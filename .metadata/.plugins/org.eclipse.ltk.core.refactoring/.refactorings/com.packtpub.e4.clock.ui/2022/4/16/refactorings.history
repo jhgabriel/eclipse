@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.packtpub.e4.clock.ui.views.SampleView&apos; to &apos;ClockView&apos;&#x0D;&#x0A;- Original project: &apos;com.packtpub.e4.clock.ui&apos;&#x0D;&#x0A;- Original element: &apos;com.packtpub.e4.clock.ui.views.SampleView&apos;&#x0D;&#x0A;- Renamed element: &apos;com.packtpub.e4.clock.ui.views.ClockView&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SampleView&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.packtpub.e4.clock.ui.views{SampleView.java[SampleView" matchStrategy="1" name="ClockView" qualified="false" references="true" similarDeclarations="false" stamp="1649584567242" textual="false" version="1.0"/>
+</session>

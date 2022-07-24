@@ -1,0 +1,23 @@
+package com.packtpub.e4.clock2.ui.views;
+
+import java.util.Map;
+import java.util.TimeZone;
+
+import org.eclipse.jface.viewers.LabelProvider;
+
+public class TimeZoneLabelProvider extends LabelProvider {
+	
+	@Override
+	public String getText(Object element) {
+		if(element instanceof Map) {
+			return "Time Zones";
+		} else if (element instanceof Map.Entry) {
+			return ((Map.Entry)element).getKey().toString();
+		} else if (element instanceof TimeZone) {
+			return ((TimeZone)element).getID().split("/")[1];
+		} else {
+			return "Unknown type: " + element.getClass();
+		}
+	}
+
+}

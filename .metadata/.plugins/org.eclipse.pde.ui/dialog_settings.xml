@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="osgiProject" value="false"/>
+	<item key="generatePluginActivator" value="true"/>
+	<item key="uiPlugin" value="false"/>
+	<item key="apiAnalysis" value="false"/>
+	<item key="rcpPlugin" value="false"/>
+	<list key="providers">
+		<item value="PACKTPUB"/>
+		<item value="Packtpub"/>
+		<item value="PacktPub"/>
+	</list>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="PDEFormActionManager">
+	</section>
+	<section name="pluginsView">
+	</section>
+	<section name="pde-form-editor">
+		<item key="org.eclipse.pde.ui.manifestEditor" value="overview"/>
+	</section>
+	<section name="org.eclipse.pde.ui.PLUGIN_STATUS_DIALOG">
+		<item key="DIALOG_WIDTH" value="665"/>
+		<item key="DIALOG_HEIGHT" value="450"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+	<section name="targetStateView">
+	</section>
+	<section name="PluginExportWizard">
+	</section>
+</section>
