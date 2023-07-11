@@ -1,2 +1,2 @@
 # eclipse
-eclipse plub-in learning
+eclipse plug-in learning
